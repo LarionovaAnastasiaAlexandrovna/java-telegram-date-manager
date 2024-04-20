@@ -1,0 +1,28 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.example</groupId>
+        <artifactId>java-telegram-date-manager</artifactId>
+        <version>1.0.0</version>
+    </parent>
+
+    <artifactId>WebSite</artifactId>
+    <packaging>war</packaging>
+
+    <dependencies>
+        <!-- Зависимости для работы с веб-сервером -->
+        <!-- Например, Spring Boot Starter Web -->
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.boot</groupId>-->
+<!--            <artifactId>spring-boot-starter-web</artifactId>-->
+<!--            <version>2.6.3</version>-->
+<!--        </dependency>-->
+
+        <!-- Другие зависимости, если необходимо -->
+    </dependencies>
+
+    <!-- Дополнительные настройки, если нужно -->
+</project>
