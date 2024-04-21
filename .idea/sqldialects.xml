@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/liquibase/01-create-table-user.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/liquibase/02-create-table-category.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/liquibase/03-create-table-message.sql" dialect="PostgreSQL" />
+  </component>
+</project>

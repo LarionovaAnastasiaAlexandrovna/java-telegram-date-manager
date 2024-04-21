@@ -4,21 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed6fdd24-96aa-4f72-a609-d75de2542a7f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Authorize/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Authorize/src/main/java/AuthorizeMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MessageManagement/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MessageManagement/src/main/java/MessageManagementMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scheduler/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TelegramBot/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TelegramBot/src/main/java/TelegramBotMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebSite/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="ed6fdd24-96aa-4f72-a609-d75de2542a7f" name="Changes" comment="Setting up the environment and dependencies, creating 5 internal applications. Check of functionality. Creating README.md">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/liquibase/01-create-table-user.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/liquibase/02-create-table-category.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/liquibase/03-create-table-message.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/liquibase/migrations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,9 +52,11 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "openjdk-22",
+    "last_opened_file_path": "/Users/macbookair/Desktop/java-telegram-date-manager",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -68,8 +65,19 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.customizations",
+    "settings.editor.selected.configurable": "preferences.externalResources",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ],
+    "com.intellij.ide.scratch.LRUPopupBuilder$1/": [
+      "PostgreSQL"
+    ],
+    "com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect": [
+      "PostgreSQL"
+    ]
   }
 }]]></component>
   <component name="RunManager" selected="Application.WebSiteMain">
@@ -83,6 +91,13 @@
     <configuration name="MessageManagementMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MessageManagementMain" />
       <module name="MessageManagement" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SchedulerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SchedulerMain" />
+      <module name="Scheduler" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -101,25 +116,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="java-telegram-date-manager" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="java-telegram-date-manager" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.WebSiteMain" />
+        <item itemvalue="Application.TelegramBotMain" />
+        <item itemvalue="Application.SchedulerMain" />
         <item itemvalue="Application.MessageManagementMain" />
         <item itemvalue="Application.AuthorizeMain" />
-        <item itemvalue="Application.TelegramBotMain" />
       </list>
     </recent_temporary>
   </component>
@@ -138,6 +141,8 @@
       <workItem from="1713619080556" duration="97000" />
       <workItem from="1713619185517" duration="1093000" />
       <workItem from="1713620454572" duration="1674000" />
+      <workItem from="1713709206682" duration="342000" />
+      <workItem from="1713709579874" duration="4740000" />
     </task>
     <servers />
   </component>
